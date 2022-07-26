@@ -114,6 +114,46 @@
 		"maxValue": 120,
 		"defaultValue": 0
 	},
+	"low_temperature_alarm": {
+		"label": "Low Temperature Alarm Threshold",
+		"unit": "0.1 °C/F",
+		"valueSize": 2,
+		"minValue": -200,
+		"maxValue": 600,
+		"defaultValue": 180
+	},
+	"high_temperature_alarm": {
+		"label": "High Temperature Alarm Threshold",
+		"unit": "0.1 °C/F",
+		"valueSize": 2,
+		"minValue": -200,
+		"maxValue": 600,
+		"defaultValue": 300
+	},
+	"low_humidity_alarm": {
+		"label": "Low Humidity Alarm Threshold",
+		"unit": "0.1 %",
+		"valueSize": 2,
+		"minValue": 200,
+		"maxValue": 850,
+		"defaultValue": 400
+	},
+	"high_humidity_alarm": {
+		"label": "High Humidity Alarm Threshold",
+		"unit": "0.1 %",
+		"valueSize": 2,
+		"minValue": 200,
+		"maxValue": 850,
+		"defaultValue": 700
+	},
+	"sensor_read_interval": {
+		"label": "Sensor Read Interval",
+		"unit": "seconds",
+		"valueSize": 2,
+		"minValue": 0,
+		"maxValue": 30000,
+		"defaultValue": 10
+	},
 	"sensor_report_interval": {
 		"label": "Sensor Report Interval",
 		"unit": "seconds",
