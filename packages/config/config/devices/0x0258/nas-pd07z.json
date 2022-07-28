@@ -117,12 +117,7 @@
 		},
 		{
 			"#": "15",
-			"label": "Sensor Report Interval",
-			"unit": "seconds",
-			"valueSize": 2,
-			"minValue": 0,
-			"maxValue": 30000,
-			"defaultValue": 180
+			"$import": "templates/shenzhen_neo_template.json#sensor_report_interval"
 		},
 		{
 			"#": "6",

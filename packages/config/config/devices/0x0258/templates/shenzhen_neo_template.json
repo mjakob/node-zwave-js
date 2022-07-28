@@ -113,5 +113,13 @@
 		"minValue": -120,
 		"maxValue": 120,
 		"defaultValue": 0
+	},
+	"sensor_report_interval": {
+		"label": "Sensor Report Interval",
+		"unit": "seconds",
+		"valueSize": 2,
+		"minValue": 0,
+		"maxValue": 30000,
+		"defaultValue": 180
 	}
 }
