@@ -97,5 +97,21 @@
 		"maxValue": 65535,
 		"defaultValue": 1000,
 		"unsigned": true
+	},
+	"temperature_offset": {
+		"label": "Temperature Offset Value",
+		"unit": "0.1 °C/F",
+		"valueSize": 1,
+		"minValue": -120,
+		"maxValue": 120,
+		"defaultValue": 0
+	},
+	"humidity_offset": {
+		"label": "Humidity Offset Value",
+		"unit": "0.1 %",
+		"valueSize": 1,
+		"minValue": -120,
+		"maxValue": 120,
+		"defaultValue": 0
 	}
 }

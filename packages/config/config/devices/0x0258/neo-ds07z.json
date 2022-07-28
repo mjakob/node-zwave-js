@@ -25,23 +25,15 @@
 		},
 		{
 			"#": "3",
+			"$import": "templates/shenzhen_neo_template.json#temperature_offset",
 			"label": "Temperature Calibration",
 			"unit": "0.1 (°C/°F)",
-			"valueSize": 1,
-			"minValue": -120,
-			"maxValue": 121,
-			"defaultValue": 0,
-			"unsigned": false
+			"maxValue": 121
 		},
 		{
 			"#": "4",
-			"label": "Humidity Offset Value",
-			"unit": "0.1 (RH%)",
-			"valueSize": 1,
-			"minValue": -120,
-			"maxValue": 120,
-			"defaultValue": 0,
-			"unsigned": false
+			"$import": "templates/shenzhen_neo_template.json#humidity_offset",
+			"unit": "0.1 (RH%)"
 		},
 		{
 			"#": "5",

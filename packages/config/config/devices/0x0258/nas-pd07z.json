@@ -126,23 +126,11 @@
 		},
 		{
 			"#": "6",
-			"label": "Temperature Offset Value",
-			"valueSize": 1,
-			"unit": "0.1 °C/F",
-			"minValue": -120,
-			"maxValue": 120,
-			"defaultValue": 0,
-			"unsigned": false
+			"$import": "templates/shenzhen_neo_template.json#temperature_offset"
 		},
 		{
 			"#": "7",
-			"label": "Humidity Offset Value",
-			"valueSize": 1,
-			"unit": "0.1 %",
-			"minValue": -120,
-			"maxValue": 120,
-			"defaultValue": 0,
-			"unsigned": false
+			"$import": "templates/shenzhen_neo_template.json#humidity_offset"
 		},
 		{
 			"#": "99",
